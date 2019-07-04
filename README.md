@@ -13,7 +13,9 @@ clone this repository
 # How to use
 
 ## Start the node
-
+> $ cd ~/catkin_ws && catkin_make
+> $ source devel/setup.bash
+> roscore
 > $ rosrun rosbag_to_csv rosbag_to_csv.py
 
 ## Select a bag file with the GUI
